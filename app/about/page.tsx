@@ -1,5 +1,9 @@
-const About = () => {
-    return ( <h1>About Page</h1> );
+const Home = () => {
+    return (
+        <div className="bg-red-500, px-2">
+            <h1>Hello tailwind</h1>
+        </div>
+    )
 }
- 
-export default About;
+
+export default Home;
