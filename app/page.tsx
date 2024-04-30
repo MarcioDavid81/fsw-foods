@@ -1,5 +1,7 @@
+import Header from "@/components/header";
+
 const Home = () => {
-  return <div className="mx-6 bg-red-500 px-5">Ovo</div>
+  return    <Header />;
 };
 
 export default Home;
