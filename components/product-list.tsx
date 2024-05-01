@@ -8,8 +8,17 @@ const ProductList = async () => {
                 gt: 0,
             },
         },
-        take: 100,
+        take: 10,
+        include: {
+            restaurant: {
+                select: {
+                    name: true
+                },
+            },
+        },
     });
+
+    console.log(products)
    
     return ( 
      
